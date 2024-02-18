@@ -1,0 +1,71 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas Seguras - BSZ</title>
+    <link rel="stylesheet" href="styles.css">
+   <div class="wrapper" ></div>
+</head>
+<body>
+    <div class="container">
+<center>
+        <h1>SecuKey - BSZ</h1>
+     </center> 
+        <div class="container2">
+            <label for="length">Longitud de la contraseña:</label>
+            <input type="number" id="length" min="6" max="50" value="12">
+            <br>
+            <label for="uppercase">Incluir letras mayúsculas:</label>
+            <input type="checkbox" id="uppercase" checked>
+            <br>
+            <label for="lowercase">Incluir letras minúsculas:</label>
+            <input type="checkbox" id="lowercase" checked>
+            <br>
+            <label for="numbers">Incluir números:</label>
+            <input type="checkbox" id="numbers" checked>
+            <br>
+            <label for="symbols">Incluir caracteres especiales:</label>
+            <input type="checkbox" id="symbols" checked>
+            <br>
+        </div>
+        <div class="separator"></div>
+
+        <center>
+            <button onclick="generatePassword()">Generar Contraseña</button>
+        </center>
+        <br>
+        <input type="text" id="password" readonly>
+        <div class="separator"></div>
+      <div class="con">
+  <button onclick="copyPassword()">Copiar contraseña</button>
+  <a >Versión 0.0.1</a>
+</div>
+        <center>
+            <p><h3>SÍGUEME EN MIS REDES SOCIALES</h3></p>
+        </center>
+        <div class="social-icons">
+            <a href="https://github.com/AvastrOficial"><img src="https://th.bing.com/th/id/OIP.saZ1ZkS5sHDzRrd8GHUUAAHaHa?rs=1&pid=ImgDetMain" alt="GitHub"></a>
+            <a href="https://t.me/BSZ_CRACKING"><img src="https://th.bing.com/th/id/OIP.uuUChCkOK3Kmx3wf_-NlCAHaHa?rs=1&pid=ImgDetMain" alt="Telegram"></a>
+            <a href="https://www.projz.com/s/u/huoonaji2"><img src="https://wikiapk.com/wp-content/uploads/2020/09/930973_featured.png" alt="Otra Red Social"></a>
+        </div>
+  
+  
+  
+    </div>
+  
+  <div class="overlay" id="overlay">
+  <div class="message" id="message">Contraseña copiada correctamente</div>
+</div>
+
+  
+  
+<div class="cont">
+  <button id="menuButton">☰ </button>
+  <div class="menu" id="menu">
+    <a href="https://archivador.foroactivo.com/">Archivador - BSZ</a>
+    <a href="https://archivador.foroactivo.com/h3-bszinbox-magic">BSZinbox Magic</a>
+    <a href="https://archivador.foroactivo.com/h4-blazeshotz">Blazeshot Filtros de Fotos</a>
+  </div>
+</div>
+</body>
+</html>
