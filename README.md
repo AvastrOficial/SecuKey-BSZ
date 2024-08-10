@@ -16,4 +16,4 @@ Copia el texto seleccionado al portapapeles utilizando el comando document.execC
 Muestra un mensaje de confirmación durante 4 segundos utilizando un overlay y luego lo oculta nuevamente.
 En resumen, estas funciones permiten a los usuarios generar contraseñas seguras con una variedad de opciones y luego copiar fácilmente esas contraseñas al portapapeles para su uso posterior.
 ## link de la pagina funcional :
-https://archivador.foroactivo.com/h5-secukey-bsz	
+https://toolapikey.foroactivo.com/h5-secukey-bsz	
